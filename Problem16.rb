@@ -1,0 +1,1 @@
+puts (2**1000).to_s.split("").inject(0) {|acc,s| acc + s.to_i}
